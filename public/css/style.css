@@ -1,0 +1,95 @@
+body{
+	background-color: #DFF4FD;
+}
+form{
+	margin-bottom: 0px;
+}
+.container{
+	margin: auto;
+	max-width: 700px;
+	text-align: center;
+	border-bottom: thick dotted #2EA2D5;
+	min-height: 40px;
+	padding: 10px;
+}
+.image{
+	max-width: 100%;
+	height: auto;
+}
+.errors{
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+.revenue{
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
+}
+.titlecontainer{
+	max-width: 500px;
+	margin: auto;
+	padding: 5px;
+}
+.uploadcontainer {
+    width: 230px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.uploadcontainer > input[type="file"] {
+    font-size: 230px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+}
+.button {
+    display: inline-block;
+    width: 230px;
+    height: 40px;
+    background-color: #71CDF5;
+	font-weight: bold;
+	color: white;
+	font-size: 15px;
+	border-radius: 25px;
+}
+div:hover > .button{
+    background-color: #2EA2D5;
+}
+.tableorder{
+	border-collapse: collapse;
+	border: 1px solid black;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width:100%;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.tableorder th{
+	font-weight: bold;		
+}
+.tableorder th, td{
+	padding: 4px 5px;
+}
+.bordertop{
+	border-top: 1px solid black;
+}
+.tablediscount {
+	background-color:#F3F3F3;
+}
+.tableeven {
+	background-color:#F4FBFF;
+}
+.tableodd {
+	background-color:#D9EDF7;
+}
+.tabledark {
+	background-color:#ccc;
+	font-weight: bold;
+}
+.small{
+	width:10%;
+}

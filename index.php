@@ -22,10 +22,8 @@
 <html>
 	<head> 
 		<title>Discount Calculator</title>
-		<!--<link type="text/css" rel="stylesheet" href="public/css/jquery.dropdown.min.css" />-->
 		<link rel="stylesheet" href="public/css/style.css">
 		<script type="text/javascript" src="http://code.jquery.com/jquery-3.1.0.js"></script>
-		<!--<script type="text/javascript" src="public/js/jquery.dropdown.min.js"></script>-->
     	<script type="text/javascript" src="public/js/functions.js"></script>
     </head>
     <body>
